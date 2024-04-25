@@ -2,8 +2,8 @@ import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import CDlogo from '/CDlogo.png';
-
 import './App.css';
+import { MainHeader } from './components/MainHeader/MainHeader';
 
 // Додаток повинен складатися з трьох блоків:
 
@@ -19,11 +19,8 @@ function App() {
     <>
       <div>
         <img src={CDlogo} className='cdlogo' alt='CD logo' />
-        <h1> Комфортен дом 2024</h1>
-        <p>
-          Мы сделаем ваш дом тихим, сухим и теплым - <br />
-          идеальные условия для комфортного проживания!
-        </p>
+        <MainHeader />
+
         <nav>
           <ul>
             <li>Ремонт и обновление апартаментов</li>
