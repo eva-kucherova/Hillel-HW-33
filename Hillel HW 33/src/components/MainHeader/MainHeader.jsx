@@ -1,3 +1,5 @@
+import './MainHeader.css';
+
 export const MainHeader = () => {
   return (
     <>

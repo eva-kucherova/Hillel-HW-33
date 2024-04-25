@@ -1,0 +1,9 @@
+nav {
+  max-width: 25%;
+  text-align: left;
+  font-size: smaller;
+}
+
+nav li.mainline {
+  font-size: medium;
+}

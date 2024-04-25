@@ -1,0 +1,8 @@
+main {
+  max-width: 70%;
+  text-align: justify;
+  padding: 0 100px 0 100px;
+}
+main ul.opinions {
+  text-align: left;
+}
