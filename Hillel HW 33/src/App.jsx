@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg';
 import CDlogo from '/CDlogo.png';
 import './App.css';
 import { MainHeader } from './components/MainHeader/MainHeader';
+import { NavBar } from 'c:/Users/antim/Desktop/Hillel-HW-33/Hillel HW 33/src/components/navbar/navbar';
 
 // Додаток повинен складатися з трьох блоків:
 
@@ -20,30 +21,7 @@ function App() {
       <div>
         <img src={CDlogo} className='cdlogo' alt='CD logo' />
         <MainHeader />
-
-        <nav>
-          <ul>
-            <li>Ремонт и обновление апартаментов</li>
-            <ul>
-              <li>Косметический ремонт</li>
-              <li>Предпродажная подготовка</li>
-              <li>Стайлинг и редизайн</li>
-            </ul>
-            <li>Повышение комфортности жилья</li>
-            <ul>
-              <li>Звукоизоляция апартаментов</li>
-              <li>Гидроизоляция апартаментов</li>
-              <li>Термоизоляция апартаментов</li>
-              <li>Монтаж теплых полов</li>
-            </ul>
-            <li>Изготовление и монтаж металлоконструкций</li>
-            <ul>
-              <li>Ограждения для террас и участков</li>
-              <li>Солнцезащитные тенты и навесы</li>
-              <li>Оригинальные лестницы и парапеты</li>
-            </ul>
-          </ul>
-        </nav>
+        <NavBar />
         <main>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
           dictum eget augue at mollis. Cras lacus turpis, fringilla non libero
